@@ -12,3 +12,5 @@
  (name test)
  (libraries openai)
  (modules test))
+
+(env (_ (flags (:standard -open Ppx_yojson_conv_lib.Yojson_conv))))
