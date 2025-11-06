@@ -1,6 +1,17 @@
 OpenAI-OCaml
 ===
 
+## A Quick Fix
+
+The opam package is outdated and the upstream code which I forked has a tiny issue.
+You can _pin_ from this repo.
+
+```console
+opam pin add https://github.com/arbipher/openai-ocaml.git
+```
+
+## Original README
+
 ```sh
 $ cat src/test.ml
 open Openai
